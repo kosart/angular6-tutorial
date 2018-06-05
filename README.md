@@ -28,12 +28,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## ng commands
 
-ng generate component component_name
+ng generate component component_name  
 ng generate component heroes
 
-ng generate service service_name
+ng generate service service_name  
 ng generate service message
 
 ng generate module app-routing --flat --module=app
 --flat puts the file in src/app instead of its own folder.
 --module=app tells the CLI to register it in the imports array of the AppModule.
+
+## Angular in-memory-web-api
+An in-memory web api for Angular demos
+https://github.com/angular/in-memory-web-api
+
